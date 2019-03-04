@@ -1,0 +1,865 @@
+/*
+  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
+  Author: Danhhc
+  License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header ,#header.header-fixed{
+	background-color: black;
+}
+
+#header #logo img {
+    padding: 0;
+    margin: 0;    
+    height: 45px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  #header #logo h1 {
+    font-size: 26px;
+  }
+}
+
+/*---------------------#############################--------------
+# innovation Section 
+--------------------------------------------------------------*/
+#innovation {
+    display: table;
+    width: 100%;
+    height: 95vh;
+    background: url(../img/geo/IOT_1.jpg) top center fixed;
+    background-size: cover;
+    /*background-color: orange;*/
+}
+
+#innovation .innovation-container {
+    background: none;
+    display: table-cell;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#innovation h1 {
+    margin: 30px 0 30px 0;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+  #innovation h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#innovation h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  #innovation h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+/*---------------------#############################--------------
+# banner-img Section
+--------------------------------------------------------------*/
+#banner-img {
+    display: table;
+    width: 100%;
+    height: 95vh;
+    background: url(../img/geo/GEOSMARTONE.jpg) top center fixed;
+    background-size: cover;
+}
+
+#banner-img .banner-img-container {
+    background: none;
+    display: table-cell;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#banner-img h2 {
+    color: #eee;
+    margin-bottom: 50px;
+    margin-top: 100px;  
+    font-size: 25px;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#banner-img .section-title {
+    color: white;
+}
+
+#banner-img .geosmart-blockquote {
+    color: white !important;
+}
+
+#banner-img .geosmart-blockquote blockquote p {
+    width: 57%;
+    margin-left: 21%;
+    font-family: Open Sans;
+    margin-bottom: 0;
+    font-size: 17px;
+}
+
+#banner-img .geosmart-blockquote blockquote footer{
+    font-size: 17px;
+    text-align: right;
+    margin-right: 27%;
+}
+
+.banner-img-list-img {
+    margin-top: 50px;
+}
+
+.banner-img-list-img .item-img {
+    display: inline;
+    vertical-align:middle;
+    width:12%;
+    padding-right: 10px;
+}
+
+
+/*---------------------#############################--------------
+    Facts Section
+--------------------------------*/
+#fonctionnalite {
+    padding: 80px 0 60px 0;
+}
+
+#fonctionnalite .section-header .section-title {
+    padding-bottom: 40px;
+}
+
+#fonctionnalite .section-header .section-description {
+    font-size: 20px;
+}
+
+#fonctionnalite .fonctionnalite-desc .fonctionnalite-desc-title {
+    padding: 0;
+    margin: 25px 0 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
+
+#fonctionnalite .fonctionnalite-desc .fonctionnalite-desc-text {
+    font-size: 14px;
+    text-align: justify;
+}
+
+#fonctionnalite .fonctionnalite-desc .text-center {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/*---------------------#############################--------------
+/* notre-vision Section
+--------------------------------*/
+#notre-vision {
+    background-size: cover;
+    padding: 80px 0 60px 0;
+}
+
+#notre-vision .title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;  
+}
+
+#notre-vision .title {
+    color: #111;
+}
+
+#notre-vision .description {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#notre-vision .section-header .geosmart-blockquote blockquote p {
+    font-family: Open Sans;
+    font-size: 17px;
+}
+
+#notre-vision .section-header .geosmart-blockquote blockquote footer {
+    font-size: 17px;
+    text-align: right;
+    margin-right: 25%;
+    margin-top: -2%;
+}
+
+.notre-vision-img {
+    width: 80%;
+}
+
+.notre-vision-desc {
+    padding-top: 50px;
+}
+
+/*---------------------#############################--------------
+/* Contact Section
+--------------------------------*/
+#contact {
+    background: #1c1c1c;
+}
+
+#contact .map {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/geo/Map.jpg);
+    background-size: cover;
+}
+
+#contact .section-header .section-description {
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+#contact .section-header .section-title {
+    color: white;
+    font-size: 40px;    
+    font-weight: 800;
+}
+
+.contact-form {
+    margin-top: 100px;
+}
+
+.contact-form .form-control {
+    padding: 2rem 0rem;    
+    background: transparent;
+    color: #999;
+    font-size: 20px !important;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2) !important;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.contact-form .form-control:focus {
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8) !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;    
+}
+
+.contact-form .contact-btn {
+    border-radius: 0;
+    border: none !important;
+    background: #fe8f01;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px 50px;
+}    
+
+.contact-form .contact-btn:hover {
+    background: #DB5A35;
+}
+
+.contact-form .row:last-child {
+    margin-top: 50px;
+} 
+
+
+/*---------------------#############################--------------
+/* Services Section
+--------------------------------*/
+#information {
+    background-color: #F5F5F5;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+}
+
+#information .box {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: 200px;
+    position: relative;
+}
+
+#information .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#information .icon i {
+    display: inline-block;
+    padding: 16px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+#information .icon i {
+    font-size: 50px;
+}
+
+#information .box:hover .icon i {
+   /*color: #2dc997;*/
+   color: orange;
+}
+
+#information .box:hover .icon a {
+    color: #2dc997;
+    background: #fff;
+}
+
+#information .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#information .title a {
+    color: #111;
+}
+
+#information .description {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*---------------------#############################--------------*/
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  display: none;
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  right: 0;
+  bottom: 15px;
+  transition: background 0.5s;
+}
+
+.back-to-top:focus {
+  color: #fff;
+  outline: none;
+}
+
+.back-to-top:hover {
+  color: #fff;
+}
+
+.back-to-down {
+    font-size: 16px;
+}
+/*---------------------#############################--------------*/
+
+#geosmartone {
+    padding: 80px 0 60px 0;
+}
+
+#geosmartone .counters span {
+    font-size: 48px;
+    display: block;
+    color: #2dc997;
+}
+
+#geosmartone .counters p {
+  	padding: 0;
+  	margin: 0 0 20px 0;
+  	font-family: "Poppins", sans-serif;
+  	font-size: 14px;
+}
+
+#geosmartone .section-header .geosmart-blockquote blockquote p {
+    font-family:Open Sans;
+    font-size: 17px;     
+}
+
+#geosmartone .section-header .geosmart-blockquote blockquote p i {
+    color: #ff9002;
+}
+
+#geosmartone .section-header .geosmart-blockquote blockquote footer {
+    font-size: 17px;    
+    text-align: right;
+    margin-right: 10%;
+    margin-top: -3%;
+}
+
+/*-----------------------*/
+.no-padding {
+   padding: 0 !important;
+
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.geo-line {
+    height: 40px;
+    border-right: 2px solid;
+    opacity: 0.1;
+}
+
+.geosmart-blockquote {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.geosmart-blockquote footer {
+    color: #ff9002;
+}
+
+.geosmart-blockquote footer:before {
+    /*content: '\2014 \00A0';*/
+}
+
+.geosmart-desc img {
+    width: 90%;
+}
+
+.geosmart-desc-img p {
+    text-align: center;
+    color: #999;
+    font-size: 20px;
+}
+
+.geosmart-desc {
+    color: black;    
+}
+
+.geosmart-desc .geosmart-desc-text {
+    padding-top: 40px;
+}
+
+.geosmart-desc .geosmart-desc-text p {
+    padding-top: 30px;
+    padding-left: 70px;
+    font-size: 26px;
+}
+
+.geosmart-counter {
+    padding-top: 20px;
+    color: black;
+}
+
+.geosmart-counter-width {
+    width: 100%;
+}
+
+.geosmart-counter-text {
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.geosmart-counter-text:before,
+.geosmart-counter-text:after {
+    text-decoration:line-through;
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%;
+    opacity: 0.3;
+}
+
+.geosmart-counter-text:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.geosmart-counter-text:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.geosmart-counter-date {
+    color: #999;
+}
+
+.geosmart-counter-date span {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.geosmart-counter-date p {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.geosmart-form-email .form-control {
+    padding: 1.375rem .75rem;
+    border: 1px solid;    
+}
+
+.geosmart-form-email input[type="email"] {
+    padding-right: 55px;
+}
+
+.geosmart-form-email p {
+    color: #999;
+    font-size: 11px;
+    text-align: center;    
+}
+
+.geosmart-form-email p a {
+    text-decoration: underline !important;
+    color: #2dc997 !important;
+    cursor: pointer;
+}
+
+.geosmart-form-icon {
+    position: absolute;
+    top: 17px;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+/*    pointer-events: none;*/
+    right: 30px;
+    color: #ff9002;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sectionBGgradient {
+    position: absolute;
+    z-index: 10;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: 100% ;
+    text-align: center;
+}
+
+.sectionBGcontent {
+    color: #fff;
+    height: 100%;
+    margin-top: 20%;
+}
+
+.sectionBGgradient h3 {
+    margin: 30px 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
+.sectionBGcontent .group-btn {
+    margin-top: 30px;
+}
+
+.sectionBGcontent .btn-brochure {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 80px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fe8f01;
+    color: #fff;
+    background: #fe8f01;
+    font-weight: 700;
+}
+
+.sectionBGcontent .btn-brochure:hover {
+    background: #DB5A35;
+    border: 2px solid #DB5A35;    
+}
+
+.sectionBGcontent .btn-inline {
+    color: #111;
+    padding: 9px 50px;
+    border-radius: 50px;    
+    background: white;  
+    display: inline-block;      
+}
+
+.sectionBGcontent .btn-inline:hover {
+    background: #ced4da
+}
+
+.sectionBGcontent .btn-inline:first-child {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;    
+}
+
+.sectionBGcontent .arrow-down {
+    margin-top: 10%
+}
+
+.btn-donate {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 80px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fe8f01;
+    color: #fff;
+    background: #fe8f01;
+    font-weight: 700;
+}
+
+.btn-donate:hover {
+    background: #DB5A35 !important;
+    border: 2px solid #DB5A35 !important;    
+}
+
+@font-face {
+    font-family: UTMIsadora;
+    src: url(../font/UTM IsadoraR.woff);
+}
+
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   position: fixed;
+   display: block;
+   opacity: 0.7;
+   background-color: #fff;
+   z-index: 99;
+   text-align: center;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  z-index: 100;
+  margin-left: 31%;
+}
+
+#politique .modal-dialog, #mess-email .modal-dialog{
+    max-width: 700px;
+}
+
+#politique .modal-dialog .modal-content .modal-header .modal-title p {
+    padding-left: 40px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+#politique .modal-dialog .modal-content .modal-body,
+#mess-email .modal-dialog .modal-content .modal-body {
+    color: #007bff;
+}
+
+#mess-email .modal-dialog .modal-content .modal-header .modal-title p {
+    padding-left: 130px;
+    color: #007bff;
+    font-weight: 600;
+}
+
+
+
+
+/* ================================#######767.98px#########===========================*/
+@media (max-width: 767.98px) {
+
+    #header.header-fixed {
+        height: 73px;
+    }
+
+    .embed-responsive {
+        margin-top: 10%;
+    }
+
+    #header #logo img {
+        max-height: 45px;
+    }    
+    
+    .sectionBGcontent {
+        margin-top: 15%;
+    }
+
+    .sectionBGgradient h3 {
+        margin: 20px 0 10px 0;
+    }
+
+    .sectionBGcontent .group-btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .sectionBGcontent .brochure {
+        margin-bottom: 0;
+    }
+
+    #geosmartone .geosmart-desc .geosmart-desc-img {
+        text-align: center;
+    }
+
+    .geosmart-desc img {
+        width: 45%;
+    }
+
+    .geosmart-desc .geosmart-desc-text {
+        text-align: center;
+    }
+
+    .geosmart-desc .geosmart-desc-text p {
+        padding-top: 0;
+        padding-left: 0;
+        font-size: 25px;
+    }
+
+    #banner-img .section-header .section-title {
+        font-size: 30px;
+    }    
+
+    #banner-img .geosmart-blockquote blockquote p {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .banner-img-list-img {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .banner-img-list-img .item-img {
+        padding-right: 5px;
+        padding-bottom: 10px;
+        width: 32%;
+    }
+
+    #banner-img h2 {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 60px;        
+    }
+
+    .notre-vision-img {
+        width: 50%;
+    }
+
+    .notre-vision-desc .row .col-lg-3, .notre-vision-desc .row .col-lg-9 h4.title{
+        text-align: center;
+    }
+    
+    .back-to-top {
+        bottom: 15px;
+    }    
+
+    .back-to-top img {
+        width: 45px;
+    }
+}
+
+
+/* ================================#######575.98px#########===========================*/
+@media (max-width: 575.98px) {
+    .embed-responsive {
+        margin-top: 20%;
+    }
+
+    .sectionBGcontent {
+        margin-top: 27%;
+    }
+
+    .sectionBGcontent h5 {
+        font-size: 13px;
+        margin: 0;
+    }
+
+    .sectionBGcontent h3 {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .sectionBGcontent .group-btn {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sectionBGcontent .btn-inline {
+        padding: 4px 18px;
+        font-size: 13px;
+        background-color: Transparent;
+        border: 1px solid white;
+        color: white;        
+    }
+    
+    .sectionBGcontent .btn-inline:hover {
+        background-color: white;
+        color: #111;
+    }    
+
+    .sectionBGcontent .btn-inline:first-child {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 5px;
+    }    
+
+    .sectionBGcontent .btn-brochure {
+        padding: 5px 25px;
+        background-color: Transparent;
+        border: 1px solid white;
+        color: white;   
+    }
+
+    .sectionBGcontent .arrow-down {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .sectionBGcontent .arrow-down a img {
+        width: 35px;
+        height: 35px;
+    }
+}
